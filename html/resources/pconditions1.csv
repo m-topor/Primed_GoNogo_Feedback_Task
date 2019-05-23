@@ -1,0 +1,9 @@
+imageFile,posX,posY,corrAns
+square.jpg,0,0,m
+square.jpg,0,0,m
+square.jpg,0,0,m
+square.jpg,0.1,0,none
+circle.jpg,0,0,c
+circle.jpg,0,0,c
+circle.jpg,0,0,c
+circle.jpg,-0.1,0,c

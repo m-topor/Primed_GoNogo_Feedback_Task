@@ -1,0 +1,10 @@
+condFile,instr
+conditions2.csv,"If you see a circle: 
+respond with the letter  C   only if the triangle is in the middle. 
+
+Do not press anything if the triangle is positioned on the left.
+ 
+
+If you see a square:
+Always respond with the letter  M   
+"

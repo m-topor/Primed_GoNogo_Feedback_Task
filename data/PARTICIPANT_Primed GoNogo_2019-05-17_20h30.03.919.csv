@@ -1,0 +1,26 @@
+instr_resp.keys,instr_resp.rt,prac_resp.keys,prac_resp.corr,prac_resp.rt,prac_1.thisRepN,prac_1.thisTrialN,prac_1.thisN,prac_1.thisIndex,prac_1.ran,prac_1.order,imageFile,posX,posY,corrAns,*Participant ID ,date,expName,psychopyVersion,frameRate,instr_resp2.keys,instr_resp2.rt,prac_resp2.keys,prac_resp2.corr,prac_resp2.rt,prac_2.thisRepN,prac_2.thisTrialN,prac_2.thisN,prac_2.thisIndex,prac_2.ran,prac_2.order,pover_resp.keys,pover_resp.rt,earlyresp.keys,resp.keys,resp.corr,Groups.thisRepN,Groups.thisTrialN,Groups.thisN,Groups.thisIndex,Groups.ran,Groups.order,countgroups,masterBlock.thisRepN,masterBlock.thisTrialN,masterBlock.thisN,masterBlock.thisIndex,masterBlock.ran,masterBlock.order,masterFile,Block1.thisRepN,Block1.thisTrialN,Block1.thisN,Block1.thisIndex,Block1.ran,Block1.order,condFile,instr,StopSide.thisRepN,StopSide.thisTrialN,StopSide.thisN,StopSide.thisIndex,StopSide.ran,StopSide.order
+space,0.595,c,1,0.338,1,0,8,4,1,7,circle.jpg,0,0,c,,2019-05-17_20h30.03.919,Primed GoNogo,3.0.4,60,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,0,,1,0,8,5,1,7,circle.jpg,0,0,c,,2019-05-17_20h30.03.919,Primed GoNogo,3.0.4,60,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,m,0,0.297,1,0,8,3,1,7,square.jpg,0.1,0,none,,2019-05-17_20h30.03.919,Primed GoNogo,3.0.4,60,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,m,1,0.132,1,0,8,1,1,7,square.jpg,0,0,m,,2019-05-17_20h30.03.919,Primed GoNogo,3.0.4,60,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,m,1,0.031,1,0,8,2,1,7,square.jpg,0,0,m,,2019-05-17_20h30.03.919,Primed GoNogo,3.0.4,60,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,c,1,0.048,1,0,8,6,1,7,circle.jpg,0,0,c,,2019-05-17_20h30.03.919,Primed GoNogo,3.0.4,60,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,m,1,0.081,1,0,8,0,1,7,square.jpg,0,0,m,,2019-05-17_20h30.03.919,Primed GoNogo,3.0.4,60,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,c,1,0.214,1,0,8,7,1,7,circle.jpg,-0.1,0,c,,2019-05-17_20h30.03.919,Primed GoNogo,3.0.4,60,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,circle.jpg,0,0,c,,2019-05-17_20h30.03.919,Primed GoNogo,3.0.4,60,space,1.495,m,0,0.248,1,0,8,6,1,7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,circle.jpg,-0.1,0,none,,2019-05-17_20h30.03.919,Primed GoNogo,3.0.4,60,,,,1,,1,0,8,7,1,7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,square.jpg,0,0,m,,2019-05-17_20h30.03.919,Primed GoNogo,3.0.4,60,,,m,1,0.048,1,0,8,0,1,7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,square.jpg,0,0,m,,2019-05-17_20h30.03.919,Primed GoNogo,3.0.4,60,,,m,1,0.064,1,0,8,1,1,7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,circle.jpg,0,0,c,,2019-05-17_20h30.03.919,Primed GoNogo,3.0.4,60,,,c,1,0.065,1,0,8,5,1,7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,square.jpg,0,0,m,,2019-05-17_20h30.03.919,Primed GoNogo,3.0.4,60,,,m,1,0.182,1,0,8,2,1,7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,circle.jpg,0,0,c,,2019-05-17_20h30.03.919,Primed GoNogo,3.0.4,60,,,m,0,0.197,1,0,8,4,1,7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,square.jpg,0.1,0,m,,2019-05-17_20h30.03.919,Primed GoNogo,3.0.4,60,,,m,1,0.031,1,0,8,3,1,7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,circle.jpg,0,0,c,,2019-05-17_20h30.03.919,Primed GoNogo,3.0.4,60,,,,,,,,,,,,space,3.243,,,0,1,0,2,1,1,1,conditionsMaster2.csv,1,0,3,0,1,2,conditionsFile2.csv,1,0,1,0,1,0,conditions2.csv,"If you see a circle: 
+respond with the letter  C   only if the triangle is in the middle. 
+
+Do not press anything if the triangle is positioned on the left.
+ 
+
+If you see a square:
+Always respond with the letter  M   
+",1,0,80,37,1,79
