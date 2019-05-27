@@ -277,7 +277,7 @@ function experimentInit() {
   prac_over = new visual.TextStim({
     win: psychoJS.window,
     name: 'prac_over',
-    text: 'This is the end of the practice session. \n\nYou will now start the main experiment. \n\nPlease pay attention every time the instruction screen\nshows up. This means that the rules are changing. \n\nYou can take a short break when the instruction screen \nshows up before continuing with the experiment. \n\nThe blocks will now be much longer \nand there will be 6 of them.',
+    text: 'This is the end of the practice session. \n\nYou will now start the main experiment. \n\nPlease pay attention every time the instruction screen\nshows up. This means that the rules are changing. \n\nYou can take a short break when the instruction screen \nshows up before continuing with the experiment. \n\nThere will be six 4 minute blocks.',
     font: 'Arial',
     pos: [0, 0], height: 0.04,  wrapWidth: undefined, ori: 0,
     color: new util.Color('black'),  opacity: 1,
