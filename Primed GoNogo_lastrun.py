@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v3.0.4),
-    on May 15, 2019, at 14:20
+    on May 27, 2019, at 21:38
 If you publish work using this script please cite the PsychoPy publications:
     Peirce, JW (2007) PsychoPy - Psychophysics software in Python.
         Journal of Neuroscience Methods, 162(1-2), 8-13.
@@ -33,7 +33,7 @@ os.chdir(_thisDir)
 # Store info about the experiment session
 psychopyVersion = '3.0.4'
 expName = 'Primed GoNogo'  # from the Builder filename that created this script
-expInfo = {'participant': ''}
+expInfo = {'*Participant ID ': ''}
 dlg = gui.DlgFromDict(dictionary=expInfo, title=expName)
 if dlg.OK == False:
     core.quit()  # user pressed cancel
@@ -74,7 +74,7 @@ else:
 # Initialize components for Routine "Intructions"
 IntructionsClock = core.Clock()
 instruction = visual.TextStim(win=win, name='instruction',
-    text='Practice Phase:\n\nPlease make a response every time you see a triangle. \n\nBefore the triangle appears you will also see:\nA   circle --> press    C    after the triangle.\n\nA   square --> press    M    after the triangle. \n\n\n\nPlease be as fast and accurate as you can. Try to respond every time. \n\nPress any key to continue onto the next instruction screen.',
+    text='Practice Sessions:\n\nYou should respond only when you see the triangle.\n\nBefore the triangle appears you will also see:\nA   circle --> press    C    after the triangle.\n\nA   square --> press    M    after the triangle. \n\n\n\nPlease be as fast and accurate as you can. \n\nPress any key to continue onto the next instruction screen.',
     font='Arial',
     pos=(0, 0), height=0.04, wrapWidth=None, ori=0, 
     color='black', colorSpace='rgb', opacity=1, 
@@ -84,7 +84,7 @@ instruction = visual.TextStim(win=win, name='instruction',
 # Initialize components for Routine "Prac1_Instr"
 Prac1_InstrClock = core.Clock()
 prac1_instr_t = visual.TextStim(win=win, name='prac1_instr_t',
-    text='This is a short practice phase 1. \nPlease follow instructions below. \n\nIf you see a circle: \nalways respond with the letter  C. \n\nIf you see a square:\nrespond with the letter  M  only if the triangle is in the middle. \n\nDo not press anything if the triangle is positioned on the right.\n\nPress any key to begin.\n',
+    text='Practice session 1. \nPlease follow instructions below. \n\nIf you see a circle: \nalways respond with the letter  C. \n\nIf you see a square:\nrespond with the letter  M  only if the triangle is in the middle. \n\nDO NOT press anything if the triangle is positioned on the right.\n\nPress any key to begin.\n',
     font='Arial',
     pos=(0, 0), height=0.04, wrapWidth=None, ori=0, 
     color='black', colorSpace='rgb', opacity=1, 
@@ -101,7 +101,7 @@ from numpy.random import random
 prac_fix = visual.TextStim(win=win, name='prac_fix',
     text='+',
     font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
+    pos=(0, 0), height=0.07, wrapWidth=None, ori=0, 
     color='black', colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=-1.0);
@@ -115,7 +115,7 @@ prac_im1 = visual.ImageStim(
 prax_fix2 = visual.TextStim(win=win, name='prax_fix2',
     text='+',
     font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
+    pos=(0, 0), height=0.07, wrapWidth=None, ori=0, 
     color='black', colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=-3.0);
@@ -133,7 +133,7 @@ prac1_feedbackClock = core.Clock()
 prac_feed = visual.TextStim(win=win, name='prac_feed',
     text='default text',
     font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
+    pos=(0, 0), height=0.05, wrapWidth=None, ori=0, 
     color='white', colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=-1.0);
@@ -141,7 +141,7 @@ prac_feed = visual.TextStim(win=win, name='prac_feed',
 # Initialize components for Routine "Prac2_Instr"
 Prac2_InstrClock = core.Clock()
 prac_instr_t2 = visual.TextStim(win=win, name='prac_instr_t2',
-    text='Now the rules change - phase 2. \n\nIf you see a circle: \nrespond with the letter  C   only if the triangle is in the middle. \n\nDo not press anything if the triangle is positioned on the left.\n \n\nIf you see a square:\nAlways respond with the letter  M   \n\nPress any key to begin.',
+    text='Now the rules change - session 2. \n\nIf you see a circle: \nrespond with the letter  C   only if the triangle is in the middle. \n\nDo not press anything if the triangle is positioned on the left.\n \n\nIf you see a square:\nAlways respond with the letter  M   \n\nPress any key to begin.',
     font='Arial',
     pos=(0, 0), height=0.04, wrapWidth=None, ori=0, 
     color='black', colorSpace='rgb', opacity=1, 
@@ -154,7 +154,7 @@ prac2_trialClock = core.Clock()
 prac2_fix = visual.TextStim(win=win, name='prac2_fix',
     text='+',
     font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
+    pos=(0, 0), height=0.07, wrapWidth=None, ori=0, 
     color='black', colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=-1.0);
@@ -168,7 +168,7 @@ prac_im = visual.ImageStim(
 prac2_fix2 = visual.TextStim(win=win, name='prac2_fix2',
     text='+',
     font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
+    pos=(0, 0), height=0.07, wrapWidth=None, ori=0, 
     color='black', colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=-3.0);
@@ -186,7 +186,7 @@ prac2_feedbackClock = core.Clock()
 prac2_feed = visual.TextStim(win=win, name='prac2_feed',
     text='default text',
     font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
+    pos=(0, 0), height=0.05, wrapWidth=None, ori=0, 
     color='white', colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=-1.0);
@@ -194,17 +194,7 @@ prac2_feed = visual.TextStim(win=win, name='prac2_feed',
 # Initialize components for Routine "Prac_Over"
 Prac_OverClock = core.Clock()
 prac_over = visual.TextStim(win=win, name='prac_over',
-    text='This is the end of the practice phase. \nPlease call the experimenter. ',
-    font='Arial',
-    pos=(0, 0), height=0.04, wrapWidth=None, ori=0, 
-    color='black', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=0.0);
-
-# Initialize components for Routine "Test_Start"
-Test_StartClock = core.Clock()
-test_instr = visual.TextStim(win=win, name='test_instr',
-    text='This is the main experiment phase:\n\nPlease make a response every time you see a triangle. \nIf you see:\n\nA   circle --> press    C    after the triangle.\n\nA   square --> press    M    after the triangle. \n\n\n\nPlease be as fast and accurate as you can. Try to respond every time. \n\nPress any key to continue onto the next instruction screen.',
+    text='This is the end of the practice session. \n\nYou will now start the main experiment. \n\nPlease pay attention every time the instruction screen\nshows up. This means that the rules are changing. \n\nYou can take a short break when the instruction screen \nshows up before continuing with the experiment. \n\nThe blocks will now be much longer \nand there will be 6 of them.',
     font='Arial',
     pos=(0, 0), height=0.04, wrapWidth=None, ori=0, 
     color='black', colorSpace='rgb', opacity=1, 
@@ -227,7 +217,7 @@ trialClock = core.Clock()
 fixation1 = visual.TextStim(win=win, name='fixation1',
     text='+',
     font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
+    pos=(0, 0), height=0.07, wrapWidth=None, ori=0, 
     color='black', colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=-1.0);
@@ -241,7 +231,7 @@ image = visual.ImageStim(
 fixation2 = visual.TextStim(win=win, name='fixation2',
     text='+',
     font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
+    pos=(0, 0), height=0.07, wrapWidth=None, ori=0, 
     color='black', colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=-4.0);
@@ -259,7 +249,7 @@ feedbackClock = core.Clock()
 feedbackText = visual.TextStim(win=win, name='feedbackText',
     text='default text',
     font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
+    pos=(0, 0), height=0.05, wrapWidth=None, ori=0, 
     color='white', colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=-1.0);
@@ -267,9 +257,9 @@ feedbackText = visual.TextStim(win=win, name='feedbackText',
 # Initialize components for Routine "thanks"
 thanksClock = core.Clock()
 thankyou = visual.TextStim(win=win, name='thankyou',
-    text='Thank you!\n\nThis is the end of the task.',
+    text='Thank you!\n\nThis is the end of the task.\n\nPress   Esc   to exit. \nYou can then close this window.',
     font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
+    pos=(0, 0), height=0.08, wrapWidth=None, ori=0, 
     color='black', colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=0.0);
@@ -494,12 +484,13 @@ for thisPrac_1 in prac_1:
             prac_im1.setAutoDraw(False)
         
         # *prax_fix2* updates
-        if (jitter+0.1) and prax_fix2.status == NOT_STARTED:
+        if t >= jitter+0.1 and prax_fix2.status == NOT_STARTED:
             # keep track of start time/frame for later
             prax_fix2.tStart = t
             prax_fix2.frameNStart = frameN  # exact frame index
             prax_fix2.setAutoDraw(True)
-        if prax_fix2.status == STARTED and t >= (prax_fix2.tStart + 0.9):
+        frameRemains = jitter+0.1 + 0.9- win.monitorFramePeriod * 0.75  # most of one frame period left
+        if prax_fix2.status == STARTED and t >= frameRemains:
             prax_fix2.setAutoDraw(False)
         
         # *image_2* updates
@@ -1025,86 +1016,6 @@ thisExp.nextEntry()
 # the Routine "Prac_Over" was not non-slip safe, so reset the non-slip timer
 routineTimer.reset()
 
-# ------Prepare to start Routine "Test_Start"-------
-t = 0
-Test_StartClock.reset()  # clock
-frameN = -1
-continueRoutine = True
-# update component parameters for each repeat
-instr_resp3 = event.BuilderKeyResponse()
-# keep track of which components have finished
-Test_StartComponents = [test_instr, instr_resp3]
-for thisComponent in Test_StartComponents:
-    if hasattr(thisComponent, 'status'):
-        thisComponent.status = NOT_STARTED
-
-# -------Start Routine "Test_Start"-------
-while continueRoutine:
-    # get current time
-    t = Test_StartClock.getTime()
-    frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-    # update/draw components on each frame
-    
-    # *test_instr* updates
-    if t >= 0.0 and test_instr.status == NOT_STARTED:
-        # keep track of start time/frame for later
-        test_instr.tStart = t
-        test_instr.frameNStart = frameN  # exact frame index
-        test_instr.setAutoDraw(True)
-    
-    # *instr_resp3* updates
-    if t >= 0.0 and instr_resp3.status == NOT_STARTED:
-        # keep track of start time/frame for later
-        instr_resp3.tStart = t
-        instr_resp3.frameNStart = frameN  # exact frame index
-        instr_resp3.status = STARTED
-        # keyboard checking is just starting
-        win.callOnFlip(instr_resp3.clock.reset)  # t=0 on next screen flip
-        event.clearEvents(eventType='keyboard')
-    if instr_resp3.status == STARTED:
-        theseKeys = event.getKeys()
-        
-        # check for quit:
-        if "escape" in theseKeys:
-            endExpNow = True
-        if len(theseKeys) > 0:  # at least one key was pressed
-            if instr_resp3.keys == []:  # then this was the first keypress
-                instr_resp3.keys = theseKeys[0]  # just the first key pressed
-                instr_resp3.rt = instr_resp3.clock.getTime()
-                # a response ends the routine
-                continueRoutine = False
-    
-    # check for quit (typically the Esc key)
-    if endExpNow or event.getKeys(keyList=["escape"]):
-        core.quit()
-    
-    # check if all components have finished
-    if not continueRoutine:  # a component has requested a forced-end of Routine
-        break
-    continueRoutine = False  # will revert to True if at least one component still running
-    for thisComponent in Test_StartComponents:
-        if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-            continueRoutine = True
-            break  # at least one component has not yet finished
-    
-    # refresh the screen
-    if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-        win.flip()
-
-# -------Ending Routine "Test_Start"-------
-for thisComponent in Test_StartComponents:
-    if hasattr(thisComponent, "setAutoDraw"):
-        thisComponent.setAutoDraw(False)
-# check responses
-if instr_resp3.keys in ['', [], None]:  # No response was made
-    instr_resp3.keys=None
-thisExp.addData('instr_resp3.keys',instr_resp3.keys)
-if instr_resp3.keys != None:  # we had a response
-    thisExp.addData('instr_resp3.rt', instr_resp3.rt)
-thisExp.nextEntry()
-# the Routine "Test_Start" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
-
 # set up handler to look after randomisation of conditions etc
 Groups = data.TrialHandler(nReps=1, method='random', 
     extraInfo=expInfo, originPath=-1,
@@ -1285,7 +1196,7 @@ for thisGroup in Groups:
                         fixation1.tStart = t
                         fixation1.frameNStart = frameN  # exact frame index
                         fixation1.setAutoDraw(True)
-                    frameRemains = 0.0 + 0.5- win.monitorFramePeriod * 0.75  # most of one frame period left
+                    frameRemains = 0.0 + jitter- win.monitorFramePeriod * 0.75  # most of one frame period left
                     if fixation1.status == STARTED and t >= frameRemains:
                         fixation1.setAutoDraw(False)
                     

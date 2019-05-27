@@ -125,7 +125,7 @@ function experimentInit() {
   instruction = new visual.TextStim({
     win: psychoJS.window,
     name: 'instruction',
-    text: 'Practice Phase:\n\nPlease make a response every time you see a triangle. \n\nBefore the triangle appears you will also see:\nA   circle --> press    C    after the triangle.\n\nA   square --> press    M    after the triangle. \n\n\n\nPlease be as fast and accurate as you can. Try to respond every time. \n\nPress any key to continue onto the next instruction screen.',
+    text: 'Practice Sessions:\n\nYou should respond only when you see the triangle.\n\nBefore the triangle appears you will also see:\nA   circle --> press    C    after the triangle.\n\nA   square --> press    M    after the triangle. \n\n\n\nPlease be as fast and accurate as you can. \n\nPress any key to continue onto the next instruction screen.',
     font: 'Arial',
     pos: [0, 0], height: 0.04,  wrapWidth: undefined, ori: 0,
     color: new util.Color('black'),  opacity: 1,
@@ -137,7 +137,7 @@ function experimentInit() {
   prac1_instr_t = new visual.TextStim({
     win: psychoJS.window,
     name: 'prac1_instr_t',
-    text: 'This is a short practice phase 1. \nPlease follow instructions below. \n\nIf you see a circle: \nalways respond with the letter  C. \n\nIf you see a square:\nrespond with the letter  M  only if the triangle is in the middle. \n\nDo not press anything if the triangle is positioned on the right.\n\nPress any key to begin.\n',
+    text: 'Practice session 1. \nPlease follow instructions below. \n\nIf you see a circle: \nalways respond with the letter  C. \n\nIf you see a square:\nrespond with the letter  M  only if the triangle is in the middle. \n\nDO NOT press anything if the triangle is positioned on the right.\n\nPress any key to begin.\n',
     font: 'Arial',
     pos: [0, 0], height: 0.04,  wrapWidth: undefined, ori: 0,
     color: new util.Color('black'),  opacity: 1,
@@ -203,7 +203,7 @@ function experimentInit() {
   prac_instr_t2 = new visual.TextStim({
     win: psychoJS.window,
     name: 'prac_instr_t2',
-    text: 'Now the rules change - phase 2. \n\nIf you see a circle: \nrespond with the letter  C   only if the triangle is in the middle. \n\nDo not press anything if the triangle is positioned on the left.\n \n\nIf you see a square:\nAlways respond with the letter  M   \n\nPress any key to begin.',
+    text: 'Now the rules change - session 2. \n\nIf you see a circle: \nrespond with the letter  C   only if the triangle is in the middle. \n\nDo not press anything if the triangle is positioned on the left.\n \n\nIf you see a square:\nAlways respond with the letter  M   \n\nPress any key to begin.',
     font: 'Arial',
     pos: [0, 0], height: 0.04,  wrapWidth: undefined, ori: 0,
     color: new util.Color('black'),  opacity: 1,
@@ -269,7 +269,7 @@ function experimentInit() {
   prac_over = new visual.TextStim({
     win: psychoJS.window,
     name: 'prac_over',
-    text: 'This is the end of the practice phase. \n\nYou will now start the main experiment. \n\nPlease pay attention every time the instruction screen\nshows up. This means that the rules are changing. \n\nYou can take a short break when the instruction screen \nshows up before continuing with the experiment. \n\nThe blocks will now be much longer \nand there will be 6 of them.',
+    text: 'This is the end of the practice session. \n\nYou will now start the main experiment. \n\nPlease pay attention every time the instruction screen\nshows up. This means that the rules are changing. \n\nYou can take a short break when the instruction screen \nshows up before continuing with the experiment. \n\nThe blocks will now be much longer \nand there will be 6 of them.',
     font: 'Arial',
     pos: [0, 0], height: 0.04,  wrapWidth: undefined, ori: 0,
     color: new util.Color('black'),  opacity: 1,
