@@ -1,0 +1,10 @@
+instr_resp.keys,instr_resp.rt,prac_resp.keys,prac_resp.corr,prac_1.thisRepN,prac_1.thisTrialN,prac_1.thisN,prac_1.thisIndex,prac_1.ran,prac_1.order,imageFile,posX,posY,corrAns,*Participant ID ,date,expName,psychopyVersion,frameRate,prac_resp.rt,instr_resp2.keys,instr_resp2.rt,prac_resp2.keys,prac_resp2.corr,prac_resp2.rt,prac_2.thisRepN,prac_2.thisTrialN,prac_2.thisN,prac_2.thisIndex,prac_2.ran,prac_2.order
+space,11.268,,0,1,0,8,7,1,7,circle.jpg,-0.1,0,c,1,2019-07-05_11h22.24.066,Primed GoNogo,3.0.4,60,,,,,,,,,,,,
+,,,0,1,0,8,4,1,7,circle.jpg,0,0,c,1,2019-07-05_11h22.24.066,Primed GoNogo,3.0.4,60,,,,,,,,,,,,
+,,m,1,1,0,8,1,1,7,square.jpg,0,0,m,1,2019-07-05_11h22.24.066,Primed GoNogo,3.0.4,60,0.428,,,,,,,,,,,
+,,m,0,1,0,8,3,1,7,square.jpg,0.1,0,none,1,2019-07-05_11h22.24.066,Primed GoNogo,3.0.4,60,0.53,,,,,,,,,,,
+,,,0,1,0,8,2,1,7,square.jpg,0,0,m,1,2019-07-05_11h22.24.066,Primed GoNogo,3.0.4,60,,,,,,,,,,,,
+,,c,1,1,0,8,6,1,7,circle.jpg,0,0,c,1,2019-07-05_11h22.24.066,Primed GoNogo,3.0.4,60,0.16,,,,,,,,,,,
+,,m,1,1,0,8,0,1,7,square.jpg,0,0,m,1,2019-07-05_11h22.24.066,Primed GoNogo,3.0.4,60,0.512,,,,,,,,,,,
+,,,0,1,0,8,5,1,7,circle.jpg,0,0,c,1,2019-07-05_11h22.24.066,Primed GoNogo,3.0.4,60,,,,,,,,,,,,
+,,,,,,,,,,square.jpg,0,0,m,1,2019-07-05_11h22.24.066,Primed GoNogo,3.0.4,60,,c,1.513,m,1,0.363,1,0,8,0,1,7
