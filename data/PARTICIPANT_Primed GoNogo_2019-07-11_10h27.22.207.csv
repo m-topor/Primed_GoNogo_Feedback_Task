@@ -1,0 +1,8 @@
+instr_resp.keys,instr_resp.rt,prac_resp.keys,prac_resp.corr,prac_1.thisRepN,prac_1.thisTrialN,prac_1.thisN,prac_1.thisIndex,prac_1.ran,prac_1.order,imageFile,posX,posY,corrAns,*Participant ID ,date,expName,psychopyVersion,frameRate
+space,0.416,,0,1,0,8,2,1,7,square.jpg,0,0,m,d,2019-07-11_10h27.22.207,Primed GoNogo,3.0.4,60
+,,,0,1,0,8,0,1,7,square.jpg,0,0,m,d,2019-07-11_10h27.22.207,Primed GoNogo,3.0.4,60
+,,,1,1,0,8,3,1,7,square.jpg,0.1,0,none,d,2019-07-11_10h27.22.207,Primed GoNogo,3.0.4,60
+,,,0,1,0,8,7,1,7,circle.jpg,-0.1,0,c,d,2019-07-11_10h27.22.207,Primed GoNogo,3.0.4,60
+,,,0,1,0,8,6,1,7,circle.jpg,0,0,c,d,2019-07-11_10h27.22.207,Primed GoNogo,3.0.4,60
+,,,0,1,0,8,5,1,7,circle.jpg,0,0,c,d,2019-07-11_10h27.22.207,Primed GoNogo,3.0.4,60
+,,,0,1,0,8,1,1,7,square.jpg,0,0,m,d,2019-07-11_10h27.22.207,Primed GoNogo,3.0.4,60
