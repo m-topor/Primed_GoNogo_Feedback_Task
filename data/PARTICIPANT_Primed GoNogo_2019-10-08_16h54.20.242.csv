@@ -1,0 +1,314 @@
+instr_resp.keys,instr_resp.rt,prac_resp.keys,prac_resp.corr,prac_1.thisRepN,prac_1.thisTrialN,prac_1.thisN,prac_1.thisIndex,prac_1.ran,prac_1.order,imageFile,posX,posY,corrAns,*Participant ID ,date,expName,psychopyVersion,frameRate,prac_resp.rt,instr_resp2.keys,instr_resp2.rt,prac_resp2.keys,prac_resp2.corr,prac_resp2.rt,prac_2.thisRepN,prac_2.thisTrialN,prac_2.thisN,prac_2.thisIndex,prac_2.ran,prac_2.order,pover_resp.keys,pover_resp.rt,earlyresp.keys,resp.keys,resp.corr,resp.rt,Groups.thisRepN,Groups.thisTrialN,Groups.thisN,Groups.thisIndex,Groups.ran,Groups.order,countgroups,masterBlock.thisRepN,masterBlock.thisTrialN,masterBlock.thisN,masterBlock.thisIndex,masterBlock.ran,masterBlock.order,masterFile,Block1.thisRepN,Block1.thisTrialN,Block1.thisN,Block1.thisIndex,Block1.ran,Block1.order,condFile,instr,StopSide.thisRepN,StopSide.thisTrialN,StopSide.thisN,StopSide.thisIndex,StopSide.ran,StopSide.order,earlyresp.rt
+space,1.563,,0,1,0,8,1,1,7,square.jpg,0,0,m,ghsgd,2019-10-08_16h54.20.242,Primed GoNogo,3.0.4,60,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,c,0,1,0,8,0,1,7,square.jpg,0,0,m,ghsgd,2019-10-08_16h54.20.242,Primed GoNogo,3.0.4,60,0.228,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,0,1,0,8,6,1,7,circle.jpg,0,0,c,ghsgd,2019-10-08_16h54.20.242,Primed GoNogo,3.0.4,60,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,1,1,0,8,3,1,7,square.jpg,0.1,0,none,ghsgd,2019-10-08_16h54.20.242,Primed GoNogo,3.0.4,60,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,0,1,0,8,4,1,7,circle.jpg,0,0,c,ghsgd,2019-10-08_16h54.20.242,Primed GoNogo,3.0.4,60,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,0,1,0,8,2,1,7,square.jpg,0,0,m,ghsgd,2019-10-08_16h54.20.242,Primed GoNogo,3.0.4,60,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,c,1,1,0,8,7,1,7,circle.jpg,-0.1,0,c,ghsgd,2019-10-08_16h54.20.242,Primed GoNogo,3.0.4,60,0.4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,c,1,1,0,8,5,1,7,circle.jpg,0,0,c,ghsgd,2019-10-08_16h54.20.242,Primed GoNogo,3.0.4,60,0.246,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,circle.jpg,0,0,c,ghsgd,2019-10-08_16h54.20.242,Primed GoNogo,3.0.4,60,,space,9.875,c,1,0.481,1,0,8,5,1,7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,square.jpg,0,0,m,ghsgd,2019-10-08_16h54.20.242,Primed GoNogo,3.0.4,60,,,,,0,,1,0,8,2,1,7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,circle.jpg,0,0,c,ghsgd,2019-10-08_16h54.20.242,Primed GoNogo,3.0.4,60,,,,c,1,0.396,1,0,8,6,1,7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,circle.jpg,0,0,c,ghsgd,2019-10-08_16h54.20.242,Primed GoNogo,3.0.4,60,,,,c,1,0.563,1,0,8,4,1,7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,square.jpg,0,0,m,ghsgd,2019-10-08_16h54.20.242,Primed GoNogo,3.0.4,60,,,,m,1,0.262,1,0,8,1,1,7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,square.jpg,0,0,m,ghsgd,2019-10-08_16h54.20.242,Primed GoNogo,3.0.4,60,,,,m,1,0.38,1,0,8,0,1,7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,circle.jpg,-0.1,0,none,ghsgd,2019-10-08_16h54.20.242,Primed GoNogo,3.0.4,60,,,,,1,,1,0,8,7,1,7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,square.jpg,0.1,0,m,ghsgd,2019-10-08_16h54.20.242,Primed GoNogo,3.0.4,60,,,,m,1,0.113,1,0,8,3,1,7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,square.jpg,0,0,m,ghsgd,2019-10-08_16h54.20.242,Primed GoNogo,3.0.4,60,,,,,,,,,,,,,space,10.493,,m,1,0.279,1,0,2,1,1,1,conditionsMaster2.csv,1,0,3,0,1,2,conditionsFile2.csv,1,0,1,0,1,0,conditions2.csv,"If you see a circle: 
+respond with the letter  C   only if the triangle is in the middle. 
+
+DO NOT press anything if the triangle is positioned on the left.
+ 
+
+If you see a square:
+Always respond with the letter  M   
+",1,0,80,8,1,79,
+,,,,,,,,,,square.jpg,0,0,m,ghsgd,2019-10-08_16h54.20.242,Primed GoNogo,3.0.4,60,,,,,,,,,,,,,,,,m,1,0.281,1,0,2,1,1,1,conditionsMaster2.csv,1,0,3,0,1,2,conditionsFile2.csv,1,0,1,0,1,0,conditions2.csv,"If you see a circle: 
+respond with the letter  C   only if the triangle is in the middle. 
+
+DO NOT press anything if the triangle is positioned on the left.
+ 
+
+If you see a square:
+Always respond with the letter  M   
+",1,0,80,64,1,79,
+,,,,,,,,,,square.jpg,0,0,m,ghsgd,2019-10-08_16h54.20.242,Primed GoNogo,3.0.4,60,,,,,,,,,,,,,,,,m,1,0.396,1,0,2,1,1,1,conditionsMaster2.csv,1,0,3,0,1,2,conditionsFile2.csv,1,0,1,0,1,0,conditions2.csv,"If you see a circle: 
+respond with the letter  C   only if the triangle is in the middle. 
+
+DO NOT press anything if the triangle is positioned on the left.
+ 
+
+If you see a square:
+Always respond with the letter  M   
+",1,0,80,48,1,79,
+,,,,,,,,,,circle.jpg,0,0,c,ghsgd,2019-10-08_16h54.20.242,Primed GoNogo,3.0.4,60,,,,,,,,,,,,,,,,c,1,0.296,1,0,2,1,1,1,conditionsMaster2.csv,1,0,3,0,1,2,conditionsFile2.csv,1,0,1,0,1,0,conditions2.csv,"If you see a circle: 
+respond with the letter  C   only if the triangle is in the middle. 
+
+DO NOT press anything if the triangle is positioned on the left.
+ 
+
+If you see a square:
+Always respond with the letter  M   
+",1,0,80,62,1,79,
+,,,,,,,,,,circle.jpg,-0.1,0,none,ghsgd,2019-10-08_16h54.20.242,Primed GoNogo,3.0.4,60,,,,,,,,,,,,,,,,,1,,1,0,2,1,1,1,conditionsMaster2.csv,1,0,3,0,1,2,conditionsFile2.csv,1,0,1,0,1,0,conditions2.csv,"If you see a circle: 
+respond with the letter  C   only if the triangle is in the middle. 
+
+DO NOT press anything if the triangle is positioned on the left.
+ 
+
+If you see a square:
+Always respond with the letter  M   
+",1,0,80,63,1,79,
+,,,,,,,,,,circle.jpg,0,0,c,ghsgd,2019-10-08_16h54.20.242,Primed GoNogo,3.0.4,60,,,,,,,,,,,,,,,,c,1,0.263,1,0,2,1,1,1,conditionsMaster2.csv,1,0,3,0,1,2,conditionsFile2.csv,1,0,1,0,1,0,conditions2.csv,"If you see a circle: 
+respond with the letter  C   only if the triangle is in the middle. 
+
+DO NOT press anything if the triangle is positioned on the left.
+ 
+
+If you see a square:
+Always respond with the letter  M   
+",1,0,80,77,1,79,
+,,,,,,,,,,square.jpg,0,0,m,ghsgd,2019-10-08_16h54.20.242,Primed GoNogo,3.0.4,60,,,,,,,,,,,,,,,,m,1,0.364,1,0,2,1,1,1,conditionsMaster2.csv,1,0,3,0,1,2,conditionsFile2.csv,1,0,1,0,1,0,conditions2.csv,"If you see a circle: 
+respond with the letter  C   only if the triangle is in the middle. 
+
+DO NOT press anything if the triangle is positioned on the left.
+ 
+
+If you see a square:
+Always respond with the letter  M   
+",1,0,80,17,1,79,
+,,,,,,,,,,circle.jpg,0,0,c,ghsgd,2019-10-08_16h54.20.242,Primed GoNogo,3.0.4,60,,,,,,,,,,,,,,,,c,1,0.379,1,0,2,1,1,1,conditionsMaster2.csv,1,0,3,0,1,2,conditionsFile2.csv,1,0,1,0,1,0,conditions2.csv,"If you see a circle: 
+respond with the letter  C   only if the triangle is in the middle. 
+
+DO NOT press anything if the triangle is positioned on the left.
+ 
+
+If you see a square:
+Always respond with the letter  M   
+",1,0,80,46,1,79,
+,,,,,,,,,,circle.jpg,0,0,c,ghsgd,2019-10-08_16h54.20.242,Primed GoNogo,3.0.4,60,,,,,,,,,,,,,,,,,0,,1,0,2,1,1,1,conditionsMaster2.csv,1,0,3,0,1,2,conditionsFile2.csv,1,0,1,0,1,0,conditions2.csv,"If you see a circle: 
+respond with the letter  C   only if the triangle is in the middle. 
+
+DO NOT press anything if the triangle is positioned on the left.
+ 
+
+If you see a square:
+Always respond with the letter  M   
+",1,0,80,78,1,79,
+,,,,,,,,,,circle.jpg,0,0,c,ghsgd,2019-10-08_16h54.20.242,Primed GoNogo,3.0.4,60,,,,,,,,,,,,,,,,c,1,0.413,1,0,2,1,1,1,conditionsMaster2.csv,1,0,3,0,1,2,conditionsFile2.csv,1,0,1,0,1,0,conditions2.csv,"If you see a circle: 
+respond with the letter  C   only if the triangle is in the middle. 
+
+DO NOT press anything if the triangle is positioned on the left.
+ 
+
+If you see a square:
+Always respond with the letter  M   
+",1,0,80,29,1,79,
+,,,,,,,,,,square.jpg,0,0,m,ghsgd,2019-10-08_16h54.20.242,Primed GoNogo,3.0.4,60,,,,,,,,,,,,,,,semicolon,m,1,0.363,1,0,2,1,1,1,conditionsMaster2.csv,1,0,3,0,1,2,conditionsFile2.csv,1,0,1,0,1,0,conditions2.csv,"If you see a circle: 
+respond with the letter  C   only if the triangle is in the middle. 
+
+DO NOT press anything if the triangle is positioned on the left.
+ 
+
+If you see a square:
+Always respond with the letter  M   
+",1,0,80,58,1,79,0.679
+,,,,,,,,,,circle.jpg,-0.1,0,none,ghsgd,2019-10-08_16h54.20.242,Primed GoNogo,3.0.4,60,,,,,,,,,,,,,,,,,1,,1,0,2,1,1,1,conditionsMaster2.csv,1,0,3,0,1,2,conditionsFile2.csv,1,0,1,0,1,0,conditions2.csv,"If you see a circle: 
+respond with the letter  C   only if the triangle is in the middle. 
+
+DO NOT press anything if the triangle is positioned on the left.
+ 
+
+If you see a square:
+Always respond with the letter  M   
+",1,0,80,23,1,79,
+,,,,,,,,,,square.jpg,0.1,0,m,ghsgd,2019-10-08_16h54.20.242,Primed GoNogo,3.0.4,60,,,,,,,,,,,,,,,,,0,,1,0,2,1,1,1,conditionsMaster2.csv,1,0,3,0,1,2,conditionsFile2.csv,1,0,1,0,1,0,conditions2.csv,"If you see a circle: 
+respond with the letter  C   only if the triangle is in the middle. 
+
+DO NOT press anything if the triangle is positioned on the left.
+ 
+
+If you see a square:
+Always respond with the letter  M   
+",1,0,80,3,1,79,
+,,,,,,,,,,square.jpg,0,0,m,ghsgd,2019-10-08_16h54.20.242,Primed GoNogo,3.0.4,60,,,,,,,,,,,,,,,,m,1,0.263,1,0,2,1,1,1,conditionsMaster2.csv,1,0,3,0,1,2,conditionsFile2.csv,1,0,1,0,1,0,conditions2.csv,"If you see a circle: 
+respond with the letter  C   only if the triangle is in the middle. 
+
+DO NOT press anything if the triangle is positioned on the left.
+ 
+
+If you see a square:
+Always respond with the letter  M   
+",1,0,80,0,1,79,
+,,,,,,,,,,square.jpg,0,0,m,ghsgd,2019-10-08_16h54.20.242,Primed GoNogo,3.0.4,60,,,,,,,,,,,,,,,,m,1,0.194,1,0,2,1,1,1,conditionsMaster2.csv,1,0,3,0,1,2,conditionsFile2.csv,1,0,1,0,1,0,conditions2.csv,"If you see a circle: 
+respond with the letter  C   only if the triangle is in the middle. 
+
+DO NOT press anything if the triangle is positioned on the left.
+ 
+
+If you see a square:
+Always respond with the letter  M   
+",1,0,80,40,1,79,
+,,,,,,,,,,circle.jpg,-0.1,0,none,ghsgd,2019-10-08_16h54.20.242,Primed GoNogo,3.0.4,60,,,,,,,,,,,,,,,,c,0,0.23,1,0,2,1,1,1,conditionsMaster2.csv,1,0,3,0,1,2,conditionsFile2.csv,1,0,1,0,1,0,conditions2.csv,"If you see a circle: 
+respond with the letter  C   only if the triangle is in the middle. 
+
+DO NOT press anything if the triangle is positioned on the left.
+ 
+
+If you see a square:
+Always respond with the letter  M   
+",1,0,80,55,1,79,
+,,,,,,,,,,square.jpg,0.1,0,m,ghsgd,2019-10-08_16h54.20.242,Primed GoNogo,3.0.4,60,,,,,,,,,,,,,,,,m,1,0.095,1,0,2,1,1,1,conditionsMaster2.csv,1,0,3,0,1,2,conditionsFile2.csv,1,0,1,0,1,0,conditions2.csv,"If you see a circle: 
+respond with the letter  C   only if the triangle is in the middle. 
+
+DO NOT press anything if the triangle is positioned on the left.
+ 
+
+If you see a square:
+Always respond with the letter  M   
+",1,0,80,19,1,79,
+,,,,,,,,,,circle.jpg,0,0,c,ghsgd,2019-10-08_16h54.20.242,Primed GoNogo,3.0.4,60,,,,,,,,,,,,,,,,c,1,0.163,1,0,2,1,1,1,conditionsMaster2.csv,1,0,3,0,1,2,conditionsFile2.csv,1,0,1,0,1,0,conditions2.csv,"If you see a circle: 
+respond with the letter  C   only if the triangle is in the middle. 
+
+DO NOT press anything if the triangle is positioned on the left.
+ 
+
+If you see a square:
+Always respond with the letter  M   
+",1,0,80,5,1,79,
+,,,,,,,,,,circle.jpg,0,0,c,ghsgd,2019-10-08_16h54.20.242,Primed GoNogo,3.0.4,60,,,,,,,,,,,,,,,,c,1,0.196,1,0,2,1,1,1,conditionsMaster2.csv,1,0,3,0,1,2,conditionsFile2.csv,1,0,1,0,1,0,conditions2.csv,"If you see a circle: 
+respond with the letter  C   only if the triangle is in the middle. 
+
+DO NOT press anything if the triangle is positioned on the left.
+ 
+
+If you see a square:
+Always respond with the letter  M   
+",1,0,80,53,1,79,
+,,,,,,,,,,square.jpg,0,0,m,ghsgd,2019-10-08_16h54.20.242,Primed GoNogo,3.0.4,60,,,,,,,,,,,,,,,,m,1,0.246,1,0,2,1,1,1,conditionsMaster2.csv,1,0,3,0,1,2,conditionsFile2.csv,1,0,1,0,1,0,conditions2.csv,"If you see a circle: 
+respond with the letter  C   only if the triangle is in the middle. 
+
+DO NOT press anything if the triangle is positioned on the left.
+ 
+
+If you see a square:
+Always respond with the letter  M   
+",1,0,80,73,1,79,
+,,,,,,,,,,square.jpg,0.1,0,m,ghsgd,2019-10-08_16h54.20.242,Primed GoNogo,3.0.4,60,,,,,,,,,,,,,,,,,0,,1,0,2,1,1,1,conditionsMaster2.csv,1,0,3,0,1,2,conditionsFile2.csv,1,0,1,0,1,0,conditions2.csv,"If you see a circle: 
+respond with the letter  C   only if the triangle is in the middle. 
+
+DO NOT press anything if the triangle is positioned on the left.
+ 
+
+If you see a square:
+Always respond with the letter  M   
+",1,0,80,43,1,79,
+,,,,,,,,,,circle.jpg,-0.1,0,none,ghsgd,2019-10-08_16h54.20.242,Primed GoNogo,3.0.4,60,,,,,,,,,,,,,,,,c,0,0.279,1,0,2,1,1,1,conditionsMaster2.csv,1,0,3,0,1,2,conditionsFile2.csv,1,0,1,0,1,0,conditions2.csv,"If you see a circle: 
+respond with the letter  C   only if the triangle is in the middle. 
+
+DO NOT press anything if the triangle is positioned on the left.
+ 
+
+If you see a square:
+Always respond with the letter  M   
+",1,0,80,71,1,79,
+,,,,,,,,,,square.jpg,0.1,0,m,ghsgd,2019-10-08_16h54.20.242,Primed GoNogo,3.0.4,60,,,,,,,,,,,,,,,c,c,0,0.18,1,0,2,1,1,1,conditionsMaster2.csv,1,0,3,0,1,2,conditionsFile2.csv,1,0,1,0,1,0,conditions2.csv,"If you see a circle: 
+respond with the letter  C   only if the triangle is in the middle. 
+
+DO NOT press anything if the triangle is positioned on the left.
+ 
+
+If you see a square:
+Always respond with the letter  M   
+",1,0,80,27,1,79,0.029
+,,,,,,,,,,square.jpg,0,0,m,ghsgd,2019-10-08_16h54.20.242,Primed GoNogo,3.0.4,60,,,,,,,,,,,,,,,c,c,0,0.581,1,0,2,1,1,1,conditionsMaster2.csv,1,0,3,0,1,2,conditionsFile2.csv,1,0,1,0,1,0,conditions2.csv,"If you see a circle: 
+respond with the letter  C   only if the triangle is in the middle. 
+
+DO NOT press anything if the triangle is positioned on the left.
+ 
+
+If you see a square:
+Always respond with the letter  M   
+",1,0,80,49,1,79,0.179
+,,,,,,,,,,circle.jpg,0,0,c,ghsgd,2019-10-08_16h54.20.242,Primed GoNogo,3.0.4,60,,,,,,,,,,,,,,,,m,0,0.279,1,0,2,1,1,1,conditionsMaster2.csv,1,0,3,0,1,2,conditionsFile2.csv,1,0,1,0,1,0,conditions2.csv,"If you see a circle: 
+respond with the letter  C   only if the triangle is in the middle. 
+
+DO NOT press anything if the triangle is positioned on the left.
+ 
+
+If you see a square:
+Always respond with the letter  M   
+",1,0,80,61,1,79,
+,,,,,,,,,,square.jpg,0.1,0,m,ghsgd,2019-10-08_16h54.20.242,Primed GoNogo,3.0.4,60,,,,,,,,,,,,,,,,c,0,0.346,1,0,2,1,1,1,conditionsMaster2.csv,1,0,3,0,1,2,conditionsFile2.csv,1,0,1,0,1,0,conditions2.csv,"If you see a circle: 
+respond with the letter  C   only if the triangle is in the middle. 
+
+DO NOT press anything if the triangle is positioned on the left.
+ 
+
+If you see a square:
+Always respond with the letter  M   
+",1,0,80,51,1,79,
+,,,,,,,,,,square.jpg,0,0,m,ghsgd,2019-10-08_16h54.20.242,Primed GoNogo,3.0.4,60,,,,,,,,,,,,,,,,m,1,0.346,1,0,2,1,1,1,conditionsMaster2.csv,1,0,3,0,1,2,conditionsFile2.csv,1,0,1,0,1,0,conditions2.csv,"If you see a circle: 
+respond with the letter  C   only if the triangle is in the middle. 
+
+DO NOT press anything if the triangle is positioned on the left.
+ 
+
+If you see a square:
+Always respond with the letter  M   
+",1,0,80,33,1,79,
+,,,,,,,,,,square.jpg,0.1,0,m,ghsgd,2019-10-08_16h54.20.242,Primed GoNogo,3.0.4,60,,,,,,,,,,,,,,,,m,1,0.381,1,0,2,1,1,1,conditionsMaster2.csv,1,0,3,0,1,2,conditionsFile2.csv,1,0,1,0,1,0,conditions2.csv,"If you see a circle: 
+respond with the letter  C   only if the triangle is in the middle. 
+
+DO NOT press anything if the triangle is positioned on the left.
+ 
+
+If you see a square:
+Always respond with the letter  M   
+",1,0,80,67,1,79,
+,,,,,,,,,,circle.jpg,0,0,c,ghsgd,2019-10-08_16h54.20.242,Primed GoNogo,3.0.4,60,,,,,,,,,,,,,,,,c,1,0.379,1,0,2,1,1,1,conditionsMaster2.csv,1,0,3,0,1,2,conditionsFile2.csv,1,0,1,0,1,0,conditions2.csv,"If you see a circle: 
+respond with the letter  C   only if the triangle is in the middle. 
+
+DO NOT press anything if the triangle is positioned on the left.
+ 
+
+If you see a square:
+Always respond with the letter  M   
+",1,0,80,45,1,79,
+,,,,,,,,,,circle.jpg,0,0,c,ghsgd,2019-10-08_16h54.20.242,Primed GoNogo,3.0.4,60,,,,,,,,,,,,,,,,c,1,0.23,1,0,2,1,1,1,conditionsMaster2.csv,1,0,3,0,1,2,conditionsFile2.csv,1,0,1,0,1,0,conditions2.csv,"If you see a circle: 
+respond with the letter  C   only if the triangle is in the middle. 
+
+DO NOT press anything if the triangle is positioned on the left.
+ 
+
+If you see a square:
+Always respond with the letter  M   
+",1,0,80,76,1,79,
+,,,,,,,,,,square.jpg,0,0,m,ghsgd,2019-10-08_16h54.20.242,Primed GoNogo,3.0.4,60,,,,,,,,,,,,,,,,c,0,0.295,1,0,2,1,1,1,conditionsMaster2.csv,1,0,3,0,1,2,conditionsFile2.csv,1,0,1,0,1,0,conditions2.csv,"If you see a circle: 
+respond with the letter  C   only if the triangle is in the middle. 
+
+DO NOT press anything if the triangle is positioned on the left.
+ 
+
+If you see a square:
+Always respond with the letter  M   
+",1,0,80,50,1,79,
+,,,,,,,,,,circle.jpg,0,0,c,ghsgd,2019-10-08_16h54.20.242,Primed GoNogo,3.0.4,60,,,,,,,,,,,,,,,,c,1,0.129,1,0,2,1,1,1,conditionsMaster2.csv,1,0,3,0,1,2,conditionsFile2.csv,1,0,1,0,1,0,conditions2.csv,"If you see a circle: 
+respond with the letter  C   only if the triangle is in the middle. 
+
+DO NOT press anything if the triangle is positioned on the left.
+ 
+
+If you see a square:
+Always respond with the letter  M   
+",1,0,80,38,1,79,
+,,,,,,,,,,circle.jpg,0,0,c,ghsgd,2019-10-08_16h54.20.242,Primed GoNogo,3.0.4,60,,,,,,,,,,,,,,,,,0,,1,0,2,1,1,1,conditionsMaster2.csv,1,0,3,0,1,2,conditionsFile2.csv,1,0,1,0,1,0,conditions2.csv,"If you see a circle: 
+respond with the letter  C   only if the triangle is in the middle. 
+
+DO NOT press anything if the triangle is positioned on the left.
+ 
+
+If you see a square:
+Always respond with the letter  M   
+",1,0,80,20,1,79,
